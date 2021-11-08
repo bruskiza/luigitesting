@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+luigi = "*"
+sqlalchemy = "~=1.3.23"
+behave = "*"
+requests = "*"
+structlog = "*"
+pathlib = "*"
+behave-html-formatter = "*"
+moment = "*"
+bumpversion = "*"
+boto3 = "*"
+pandas = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
